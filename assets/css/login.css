@@ -3,14 +3,13 @@ html,body{
     padding: 0;
     height: 100%;
     width: 100%;
-    /* background-color: red; */
-    background:url('../images/login_bg.jpg') no-repeat center;
+    background:url('/assets/images/login_bg.jpg') no-repeat center ;
     background-size: cover;
 }
-.pginAndRegBox{
+.loginAndRegBox{
     width: 400px;
     height: 310px;
-    background-color: #fff;
+    background-color: white;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -18,17 +17,20 @@ html,body{
 }
 .title-box{
     height: 60px;
-    background:url('/素材/assets/images/login_title.png') no-repeat center;
+    background: url('/assets//images/login_title.png') no-repeat center;
 }
 .reg-box{
     display: none;
 }
-.layui-form { 
-    padding: 0 30px;
+.layui-form{
+    margin: 0 30px;
 }
 .links{
     display: flex;
     justify-content: flex-end;
+}
+.links a{
+    font-size: 12px;
 }
 .layui-form-item{
     position: relative;
